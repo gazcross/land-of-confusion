@@ -1,0 +1,110 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+    font-family: Poppins, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    padding: 0px;
+    margin-right: 0px;
+    background-image: url(images/forest-path.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.container {
+    display: grid;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.game-area {
+    display: grid;
+    justify-content: top;
+    flex-direction: column;
+    align-items: top;
+    border: 2px solid black;
+    padding-left: 100px;
+    padding-right: 100px;
+    height: 90%;
+    background-color: white;
+    background-image: url(images/crossroad.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: top;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 75vh;
+}
+
+button {
+    width: 250px;
+    border: none;
+    padding: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+button:hover {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+.heading {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.description {
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+
+.separator {
+    font-size: 15px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+input {
+    width: 300px;
+    height: 40px;
+    text-align: center;
+    border-width: 2px;
+    font-size: 15px;
+    text-transform: uppercase;
+  }
+  
+  ::-webkit-input-placeholder {
+    text-align: center;
+  }
+  
+  :-moz-placeholder {
+    text-align: center;
+  }
+
+  .choiceTwo {
+      padding-bottom: 30px;
+  }
+
+  .result {
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      font-size: 10px;
+      text-transform: uppercase;
+  }
+
+input:focus::placeholder {
+    color: transparent;
+}
+

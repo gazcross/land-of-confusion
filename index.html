@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <title>Land Of Confusion</title>
+    <link href="style.css" rel="stylesheet">
+    <script src="app.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <div class="game-area">
+            <div class="content">
+                <div class="heading">
+                    <h2>IN THE LAND OF CONFUSION</h2>
+                </div>
+                <div class="description">
+                    <h2>There are!</h2>
+                </div>
+                <form autocomplete="off" id="content-area-one">
+                    <div class="choiceOne">
+                        <input type="text" id="input-one" placeholder="TREES" onkeyup="wordOnly(this)">
+                    </div>
+                </form>
+                <div class="separator">
+                    <h2>But no.......</h2>
+                </div>
+                <form autocomplete="off" id="content-area-two">
+                    <div class="choiceTwo">
+                        <input type="text" id="input-two" placeholder="LEAVES" onkeyup="wordOnly(this)">
+                    </div>
+                </form>
+                <div class="submit-btn">
+                    <button type="submit" id="submit">CAN I COME IN?</button>
+                </div>
+                <div class="reset-btn">
+                    <button type="reset" id="reset">RESET YOUR ITEMS!</button>
+                </div>
+            </div>
+            <div>
+                <div class="result" id="result-msg">
+                    <h2></h2>
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
